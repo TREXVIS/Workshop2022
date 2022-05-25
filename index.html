@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>TREX VIS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="icon" href="files/pageLogo2.png">
+
+</head>
+
+<body>
+
+  <div class="jumbotron jumbotron-fluid pr-2 pl-2 pb-0 top-panel">
+    <div class="row container-fluid justify-content-center align-items-center">
+      <div class="col-sm-6">
+        <h1 class="mb-0" style="color:#5e5d5d;"> <span class="theme-color">TREX</span> 2021: <br> Workshop on <span
+            class="theme-color">TR</span>ust and <span2 class="theme-color">EX</span2>pertise <br> in Visual Analytics
+        </h1>
+        <!-- <p class="mb-0" style="color:#5e5d5d;">IEEE VIS 2020, Salt Lake City, Utah <br> <span class="theme-color">25-30 October</span></p> -->
+      </div>
+      <div class="col-sm-6 text-right">
+        <img id="logo" class="col-sm-6 img-fluid" src="files/logo2.png">
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <!-- <a class="navbar-brand" href="#">News</a> -->
+    <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <!-- justify-content-center to collapsibleNavbar -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav nav-fill w-100">
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#" onclick="goTo('./index.html');"><span class="current-nav">About
+              TREX</span></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#" onclick="goTo('./speakers.html');">Keynote Speaker <span style="font-size: 0.6rem;">(NEW)</span></a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#" onclick="goTo('./papers.html');">Workshop Schedule <span style="font-size: 0.6rem;">(NEW)</span></a>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#" onclick="goTo('./call.html');">Call for Papers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#" onclick="goTo('./organizers.html');">Organizers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#" onclick="goTo('./contact.html');">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row mb-5">
+      <div class="col-sm-4 col-lg-3 col-md-4 pt-4 side-panel sticky-offset" style="background-color: #ffe28a;">
+        <!-- <h2>About Me</h2> -->
+        <h5 class="mb-0">IEEE VIS 2021, New Orleans, USA <br> <span class="theme-color">24-29 October 2021</span></h5>
+        <br>
+        <h4>Important Dates</h4>
+        <div class="row mb-3">
+          <div class="col-sm-12 col-lg-12 col-md-12">
+            <h6>Submission Deadline</h6>
+          </div>
+          <div class="col-sm-12 pr-0 col-lg-12 col-md-12">
+            <h6 class="theme-color"><strike style="color: #770e81;">Jul 30, 2021</strike> <b>Aug 6, 2021, 6 pm PST</b>
+            </h6>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-sm-12 col-lg-12 col-md-12">
+            <h6>Author Notification</h6>
+          </div>
+          <div class="col-sm-12 pr-0 col-lg-12 col-md-12">
+            <h6 class="theme-color"><strike style="color: #770e81;">Sep 3, 2021</strike> <b>Sep 10, 2021, 6 pm PST</b>
+            </h6>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-sm-12 col-lg-12 col-md-12">
+            <h6>Camera-Ready Deadline</h6>
+          </div>
+          <div class="col-sm-12 pr-0 col-lg-12 col-md-12">
+            <h6 class="theme-color">  <b>Sep 17, 2021, AoE</b>
+            </h6>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-sm-12 col-lg-12 col-md-12">
+            <h6>TREX 2021 Workshop</h6>
+          </div>
+          <div class="col-sm-12 pr-0 col-lg-12 col-md-12">
+            <h6 class="theme-color">October 24, 8-11:30 am Central Time
+              <!-- <br>12:00 pm - 3:30 pm (US Mountain Time) -->
+            </h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-8 col-lg-9 col-md-8 pt-4">
+        <h4 class="col-sm-5 pl-0"> About TREX</h4>
+        <div class="row justify-content-center align-items-center">
+          <!-- NEWS and Updates -->
+          <!-- <div class="alert p-2" style="background-color:#eaeaea;">
+      <b class="theme-color">NEW!</b> TREX will be streamed on YouTube through this link: <a class="theme-color" href="https://youtu.be/LTGzCvhv05M">https://youtu.be/LTGzCvhv05M</a> with live Q&A open to the audience!
+    </div>
+    <div class="alert p-2" style="background-color:#eaeaea;">
+      <b class="theme-color">NEW!</b> TREX will take place virtually on Sunday, October 25 2020 - 12:00 pm to 3:30 pm (US Mountain Time). The workshop schedule is now <a class="theme-color" href="papers.html">available here!</a>
+    </div>
+    <div class="alert p-2" style="background-color:#eaeaea;">
+      <b class="theme-color">NEW!</b> We are pleased to announce <i>Steven Franconeri</i>, <i>Jenn Wortman Vaughan</i>, and <i>Bum Chul Kwon</i> will join TREX as invited speakers. More information about the talks and speakers are <a class="theme-color" href="speakers.html">available here!</a>
+    </div>  -->
+          <div class="col-md-6 col-lg-8">
+            <div class="alert p-2" style="background-color:#eaeaea;">
+              <b class="theme-color">NEW!</b>
+              <!-- IEEE VIS conference is going virtual! -->
+              We are pleased to announce <b>Q. Vera Liao</b> will be this year's Keynote Speaker at TREX! More information about Dr. Liao's talk and her work is <a href="speakers.html"><u>available here!</u></a>
+            </div>
+            <div class="alert p-2" style="background-color:#eaeaea;">
+              <b class="theme-color">NEW!</b>
+              <!-- IEEE VIS conference is going virtual! -->
+              TREX will be held virtually on Sunday, October 24 2021, from 8 am to 11:30 am Central Time. Please refer to the <a
+                href="http://ieeevis.org">IEEE VIS Website</a> for more information on registration and how to attend. The workshop schedule is now <a href="papers.html"><u>available here!</u></a>
+            </div>
+            <h5 class="theme-color">Welcome to TREX 2021!</h5>
+            <p>This is a second-time workshop that is happening in conjunction with the <a
+                href="http://ieeevis.org">IEEE Visualization Conference</a>, scheduled to take place in New Orleans,
+              Louisiana, USA in October 2021.
+              We will share all the relevant news and updates about the workshop on this website.
+              <br>
+              <br>
+              This workshop invites contributions that provide a user-centered perspective on how human-machine trust,
+              domain expert knowledge, and familiarity with data science methods influence the use and adoption of
+              visual analytics techniques and systems.
+              The goal is to discuss and discover challenges and future directions regarding these issues by proposing
+              design guidelines, empirical findings, and visual analytic techniques.
+              <br>
+            <h6 class="theme-color"><b>Previous workshop:</b>
+              <a href="https://trexvis.github.io/Workshop2020/index.html" target="_blank"><span
+                  style="color=#770e81"><i>TREX 2020</i></span></a>
+            </h6>
+            </p>
+          </div>
+          <!-- <div class="col-md-4 col-lg-4 text-center mb-3 p-0"><img class="img-fluid col-md-11 col-lg-6" src="files/new-orleans-hero.jpg"></div> -->
+          <div class="col-md-6 col-lg-4">
+            <a class="twitter-timeline" data-width="300" data-theme="dark" data-height="300"
+              href="https://twitter.com/TrexInVIS?ref_src=twsrc%5Etfw">Tweets by @TrexInVIS</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+        <!-- <div class="row">
+    <div class="col-md-12">
+      <p>	This workshop invites contributions that provide a user-centered perspective on how human-machine trust, domain expert knowledge, and familiarity with data science methods influence the use and adoption of visual analytics techniques and systems. 
+        The goal is to discuss and discover challenges and future directions regarding these issues by proposing design guidelines, empirical findings, and visual analytic techniques.	
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p>
+      <h6 class="theme-color"><b>Prvious workshop:</b>
+      <a href="https://trexvis.github.io/Workshop2020/index.html" target="_blank"><span style="color: #5e5d5d"><i>TREX 2020</i></span></a> </h6>
+      </p>
+    </div>
+  </div> -->
+      </div>
+    </div>
+
+    <hr>
+    <div class="row text-center mb-1">
+      <div class="col-sm-12">
+        <i class="text-center" style="color: #5e5d5d; font-size: 0.7rem;"> Copyright <i class="far fa-copyright"></i>
+          <script>document.write(new Date().getUTCFullYear());</script> TREX Second Workshop on Trust and Expertise In
+          Visual Analytics.
+        </i>
+        <i style="color: #5e5d5d; font-size: 0.7rem;"> The image on the header was made from vectors published by <a
+            href="https://www.freepik.com/free-photos-vectors/background">freepik.com</a>. Copyright belongs to freepik
+          and art creators. </i>
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

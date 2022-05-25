@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>TREX VIS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="icon" href="files/pageLogo2.png">
+
+</head>
+
+<body>
+
+  <div class="jumbotron jumbotron-fluid pr-2 pl-2 pb-0 top-panel">
+    <div class="row container-fluid justify-content-center align-items-center">
+      <div class="col-sm-6">
+        <h1 class="mb-0" style="color:#5e5d5d;"> <span class="theme-color">TREX</span> 2021: <br> Workshop on <span
+            class="theme-color">TR</span>ust and <span2 class="theme-color">EX</span2>pertise <br> in Visual Analytics
+        </h1>
+        <!-- <p class="mb-0" style="color:#5e5d5d;">IEEE VIS 2020, Salt Lake City, Utah <br> <span class="theme-color">25-30 October</span></p> -->
+      </div>
+      <div class="col-sm-6 text-right">
+        <img id="logo" class="col-sm-6 img-fluid" src="files/logo2.png">
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <!-- <a class="navbar-brand" href="#">News</a> -->
+    <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <!-- justify-content-center to collapsibleNavbar -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav nav-fill w-100">
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#" onclick="goTo('./index.html');">About TREX</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#" onclick="goTo('./speakers.html');">Keynote Speaker <span style="font-size: 0.6rem;">(NEW)</span></a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#" onclick="goTo('./papers.html');">Workshop Schedule <span style="font-size: 0.6rem;">(NEW)</span></a>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#" onclick="goTo('./call.html');"><span class="current-nav"> Call
+              for Papers</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#" onclick="goTo('./organizers.html');">Organizers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#" onclick="goTo('./contact.html');">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row mb-5">
+      <div class="col-sm-4 col-lg-3 col-md-4 pt-4 side-panel sticky-offset" style="background-color: #ffe28a;">
+        <!-- <h2>About Me</h2> -->
+        <h5 class="mb-0">IEEE VIS 2021, New Orleans, USA <br> <span class="theme-color">24-29 October 2021</span></h5>
+        <br>
+        <h4>Important Dates</h4>
+        <div class="row mb-3">
+          <div class="col-sm-12 col-lg-12 col-md-12">
+            <h6>Submission Deadline</h6>
+          </div>
+          <div class="col-sm-12 pr-0 col-lg-12 col-md-12">
+            <h6 class="theme-color"><strike style="color: #770e81;">Jul 30, 2021</strike> <b>Aug 6, 2021, 6 pm PST</b>
+            </h6>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-sm-12 col-lg-12 col-md-12">
+            <h6>Author Notification</h6>
+          </div>
+          <div class="col-sm-12 pr-0 col-lg-12 col-md-12">
+            <h6 class="theme-color"><strike style="color: #770e81;">Sep 3, 2021</strike> <b>Sep 10, 2021, 6 pm PST</b>
+            </h6>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-sm-12 col-lg-12 col-md-12">
+            <h6>Camera-Ready Deadline</h6>
+          </div>
+          <div class="col-sm-12 pr-0 col-lg-12 col-md-12">
+            <h6 class="theme-color">  <b>Sep 17, 2021, AoE</b>
+            </h6>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-sm-12 col-lg-12 col-md-12">
+            <h6>TREX 2021 Workshop</h6>
+          </div>
+          <div class="col-sm-12 pr-0 col-lg-12 col-md-12">
+            <h6 class="theme-color">October 24, 8-11:30 am Central Time
+              <!-- <br>12:00 pm - 3:30 pm (US Mountain Time) -->
+            </h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-8 col-lg-9 col-md-8 pt-4">
+        <h4 class="col-sm-3 pl-0"> Call for papers</h4>
+        <br>
+        <h5 class="theme-color">Workshop Goals</h5>
+        <p> Visual analytics (VA) systems combine computational support and human cognitive and perceptual skills to
+          explore and analyze data.
+          Many of these systems have been incorporating machine learning (ML) models and algorithms to introduce some
+          level of automation to the analytical process.
+          However, within this relationship, there are a number of aspects that can impact the effectiveness of the
+          human-machine teaming, including:
+        <ol>
+          <li> People's domain and system expertise;</li>
+          <li> Human biases, including cognitive and perceptual biases;</li>
+          <li> Trust in ML models and visual representation of data.</li>
+        </ol>
+        <!-- (1) people's domain and system expertise, (2) human biases, including cognitive and perceptual biases, and (3) trust in ML models and visual representation of data. -->
+        Expertise, bias, and trust are intrinsically intertwined.
+        Additionally, visual analytics systems are used in different fields and by people from various backgrounds, with
+        different levels of domain expertise and experience with machine learning and visual analytics tools.
+        This variety of experience and domain expertise among human users has opened the door for new research
+        directions and challenges in the fields of visual analytics and machine learning.
+        Designers who fail to consider the aforementioned diversities might introduce problems to the analysis
+        effectiveness and user experience.
+        Furthermore, experience and domain expertise might affect user trust in visual analytics tools; although, how
+        and why they affect trust is still an open question.
+        Trust will eventually affect how much the users would rely on and use the tool.
+        While users will take advantage of their prior experiences to make better decisions with the assistance of
+        analytic support, they might carry many cognitive biases that can negatively influence their decision-making or
+        analysis process.
+        Recent research shows trust in and reliance on the visual analytics systems/tools as well as user strategies and
+        biases can be directly influenced by domain and system expertise (or lack of expertise).
+        The goal of this workshop is to bring together researchers and practitioners from different disciplines to
+        discuss and discover challenges in ML supported visual analytics tools and set the stage for future research
+        directions and collaborations regarding these issues by proposing design guidelines, empirical findings, and VA
+        techniques.
+
+        </p>
+        <br>
+        <h5 class="theme-color">Topics of Interest</h5>
+        <p>Workshop suggested topics are as followed:
+        <ol>
+          <li>Trust considerations based on different areas of domain expertise (e.g., medical, security, scientific,
+            financial domains).</li>
+          <li>Trust and bias considerations based on different levels of user familiarity with machine learning and
+            visual analytics systems.</li>
+          <li>Detecting and preventing cognitive biases in visual analytics and machine learning for users.</li>
+          <li>User trust in machine learning models and visual explanations of model decisions in visual analytics
+            systems.</li>
+          <li>The correlation between trust, domain knowledge, and potential cognitive biases.</li>
+          <li>The relationship between domain expertise and trust with model transparency, human interpretability, and
+            model understandability in visual data analysis.</li>
+          <li>The relationship between model interpretability, domain expertise, and trust.</li>
+          <li>Human-centered considerations in Human-in-the-loop visualization tools and interpretable models.</li>
+        </ol>
+        </p>
+        <br>
+        <h5 class="theme-color">Contribution Types</h5>
+        <p>
+          We are looking for and open to diverse forms of research (as listed below) within the realm of VA and ML with
+          appropriate emphasis and relation to human trust, expertise, and cognitive factors.
+          We encourage submissions of research involving:
+        <ol>
+          <li>Human empirical research/findings</li>
+          <li>Design guidelines and surveys</li>
+          <li>Technique papers</li>
+          <li>Position papers</li>
+          <li>Case studies</li>
+        </ol>
+        </p>
+        <br>
+        <h5 class="theme-color">Submission Format</h5>
+        <p>The workshop will accept papers with 2 to 6 pages in length, plus 2 pages of references.
+          All submissions must be in <b>IEEE VGTC Conference Style Template format </b>.
+          (You can download the appropriate templates <a href="http://junctionpublishing.org/vgtc/Tasks/camera.html">
+            here</a>.)
+          <!-- <br> -->
+          <br>
+          We also encourage authors to submit a short 30-second video of their work (for publication purposes) when
+          submitting their work, if applicable.
+          Depending on the conference format this year (i.e., virtual or hybrid), the authors of the accepted papers
+          might be required to submit a longer video (e.g., 5 to 10 minutes) to substitute a live presentation.
+          In such event, we will send further instructions closer to the workshop.
+          <!-- For the camera-ready deadline, all the poster submissions <b>must</b> prepare a 30-second video for the poster fast-forward session. -->
+          <!-- These videos might have audio for the archival purposes, but the authors will only use the video as a visual tool while presenting their fast-forward in the workshop. -->
+          The submissions are made through the PCS (<a
+            href="https://new.precisionconference.com/user/login?next=https%3A//new.precisionconference.com/submissions">Precision
+            Conference Solutions</a>) website.
+          At least one author from each accepted paper needs to register for the conference (please refer to the <a
+            href="http://ieeevis.org">IEEE VIS Website</a> for the registration requirements).
+          The submissions are <b>not</b> required to be anonymize, and may include the full name of authors, their
+          email, and affiliation as well as an acknowledgment.
+          <br>
+        <h5 class="theme-color">Publication</h5>
+        <p> The workshop accepts papers in two formats, as seen below. Upon submitting the papers, authors are asked to
+          determine their desired paper format.
+        <ol>
+          <li><b class="theme-color">Archival Short paper publication</b> through IEEE Xplore. This means that the
+            papers can only be published in a proper journal as an extended version with at least 30% new content. This
+            means each paper will be published and available through IEEE Xplore with an assigned DOI and are citable.
+            While the papers published with this format can be extended to a journal publication (with 30% new content,
+            subject to the rules of that journal), this content cannot be re-used for a future conference submission,
+            such as IEEE VIS, EuroVis, and CHI.
+          </li>
+          <li>
+            <b class="theme-color">Short paper statements or Work-in-progress notes</b>, which will be non archival. In
+            other words, the authors maintain the copyright of their paper and are allowed to reuse their material in
+            future publications.
+          </li>
+        </ol>
+        </p>
+        <br>
+        <h5 class="theme-color">Review Strategy</h5>
+        <p>As the first step, a member of the organization team will go through the abstracts of all the submissions,
+          and will assign a maximum of two members of the organization team to each paper based on how relevant the
+          paper is to their expertise and research focus.
+          Each paper will then be reviewed by their assigned internal reviewer(s).
+          If the publication is relevant to the focus of the workshop, we would then ask an external reviewer (from a
+          selective program committee) to review the paper as well.
+          All the reviewers would assign a rating from 1 to 5 to denote the quality and relevance of the paper.
+          Based on the final ratings of these papers, we will choose which papers will be accepted for the main
+          conference presentation and which would be accepted for the poster presentation.
+          Evidently, some of the papers might get rejected based on their relevance, quality, and research validity and
+          value.
+          The authors of the accepted <i>posters</i> are given an opportunity to give a short presentation of their
+          poster during the workshop to promote their research and encourage participants to attend the poster session.
+          Each paper would receive a light feedback, and if accepted, the authors can address the feedback in the
+          camera-ready version.
+        </p>
+      </div>
+    </div>
+
+    <hr>
+    <div class="row text-center mb-1">
+      <div class="col-sm-12">
+        <i class="text-center" style="color: #5e5d5d; font-size: 0.7rem;"> Copyright <i class="far fa-copyright"></i>
+          <script>document.write(new Date().getUTCFullYear());</script> TREX Second Workshop on Trust and Expertise In
+          Visual Analytics.
+        </i>
+        <i style="color: #5e5d5d; font-size: 0.7rem;"> The image on the header was made from vectors published by <a
+            href="https://www.freepik.com/free-photos-vectors/background">freepik.com</a>. Copyright belongs to freepik
+          and art creators. </i>
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
