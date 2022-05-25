@@ -2,7 +2,7 @@ h1 {
   font-size: 1.2rem;
 }
 a {
-  color: #770e81;
+  color: #1d3060;
   font-weight: bold;
 }
 
@@ -124,11 +124,11 @@ iframe {
 }
 
 .navbar {
-  background-color: #26853b !important;
+  background-color: #a20a34 !important;
 }
 
 .theme-color {
-  color: #26853b !important;
+  color: #a20a34 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
