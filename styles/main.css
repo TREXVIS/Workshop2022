@@ -119,7 +119,7 @@ iframe {
 }
 
 #logo {
-  bottom: -20px;
+  /* bottom: -20px; */
   z-index: 1022;
 }
 
